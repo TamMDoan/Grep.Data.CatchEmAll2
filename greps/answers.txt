@@ -1,21 +1,29 @@
 # Part 1
-### a)
-
-
-
+### a) grep "beed" forest/filescan_00.1
+ grep "bulb" forest/filescan_00.1
+ grep "blas" forest/filescan_00.1
+ grep "butt" forest/filescan_00.1
+ grep "izard$" forest/filescan_00.2
+ grep "mander$" forest/filescan_00.2
+ grep "meleon$" forest/filescan_00.2
+ grep "ivys" forest/filescan_00.3
+ grep "jigg" forest/filescan_00.3
+ grep "meow" forest/filescan_00.3
+ grep "pika" forest/filescan_00.3
+ grep "psyd" forest/filescan_00.4
+ grep "venu" forest/filescan_00.4
+ grep "squi" forest/filescan_00.4
+ grep "wart" forest/filescan_00.4
 
 ### b)
 
 
 
 ### c)
-
-
-
-
-
-
-
+filescan_00.1 : beedrill, bulbasaur, blastoise, butterfree
+filescan_00.2 : charmander, charmeleon, charizard
+filescan_00.3 : ivysaur, jigglypuff, meowth, pikachu
+filescan_00.4 : psyduck, venusaur, squirtle, wartortle
 
 
 
@@ -24,13 +32,14 @@
 
 # Part 2
 ### a)
-
-
-
+15
+grep -rc "\-\------" captured
 
 
 
 ### b)
+Beedrill, pikachu, and charizard
+grep -rc "\-\------" captured
 
 
 
